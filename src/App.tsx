@@ -1,14 +1,16 @@
-import Home from './views/home';
+import Home from './views/home'
+import Layout from './components/layout'
 
-import './App.css';
+import './App.scss'
 
 function App() {
   return (
     <div className="App">
-      <h1>React Typescript App</h1>
-      <Home />
+      <Layout>
+        <Home />
+      </Layout>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
